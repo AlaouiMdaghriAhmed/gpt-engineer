@@ -5,7 +5,7 @@ and process the code through various steps defined in the step bundle.
 """
 
 from typing import Callable, Optional, TypeVar
-
+import os 
 # from gpt_engineer.core.default.git_version_manager import GitVersionManager
 from gpt_engineer.core.ai import AI
 from gpt_engineer.core.base_agent import BaseAgent
